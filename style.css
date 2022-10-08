@@ -1,0 +1,815 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: system-ui;
+}
+/* STYLESHEET FOR MOBILE VERSION ONLY.  */
+header,
+nav ul {
+  display: none;
+}
+
+/* ADDED A WHITE BACKGROUND IMAGE TO THIS SECTION. THIS SECTION WOULD RUN TILL THE END OF THE "MAIN-SECTION"  */
+.bg-img-white-section {
+  background-image: url(images/IMG_8569.PNG);
+}
+/* END OF  SECTION WITH THE WHITE BG IMAGE  */
+
+/* HERO SECTION BEGINS */
+.hero-section {
+  padding: 10% 3%;
+}
+.hero-section p {
+  font-style: italic;
+  font-size: 0.8rem;
+  padding: 8% 0;
+}
+.hero-section h1 {
+  font-size: 2.8rem;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 1px;
+}
+.hero-section button {
+  width: 100%;
+  padding: 5% 5%;
+  font-weight: 700;
+  font-size: 1rem;
+  background-color: black;
+  color: white;
+  margin: 20% 0;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease;
+  position: relative;
+}
+.hero-section button:hover {
+  background: none;
+  color: #212529;
+  border: 2px solid black;
+}
+
+/* Style for the arrow icon beside the button */
+.hero-section span i {
+  padding: 0 2%;
+}
+/* style for the icon ended here */
+.hero-section-hr hr {
+  background-color: black;
+  padding: 0.8% 0;
+  border: none;
+  margin: 15% 0;
+}
+/* HERO SECTION ENDS.... */
+
+/* MAIN SECTION BEGINS */
+main {
+  padding: 0 3%;
+}
+.main-img img {
+  display: none;
+}
+main h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 34px;
+}
+.attributes {
+  padding: 15% 0;
+}
+/* Style for the icon */
+.attributes i {
+  padding: 10% 0;
+  font-size: 2rem;
+}
+/* style for the icon ended here */
+.attributes h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.attributes p {
+  padding: 5% 0 10% 0;
+}
+/* END OF MAIN SECTION */
+
+/* BEGINNING OF FEATURES SECTION */
+.features-section {
+  padding: 15% 3%;
+}
+.features-section-item {
+  display: flex;
+  flex-direction: column;
+}
+.features-section-item01 h1 {
+  padding: 10% 0;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 34px;
+}
+.features-section-item01 p {
+  padding: 10% 0;
+  font-weight: 500;
+  font-size: 0.9rem;
+  width: 70%;
+  color: rgba(0, 0, 0, 0.596);
+}
+.features-section-item02 {
+  order: -1;
+}
+.features-section img {
+  width: 100%;
+}
+.features-section button {
+  width: 100%;
+  padding: 5% 5%;
+  font-weight: 700;
+  font-size: 1rem;
+  background-color: black;
+  color: white;
+  margin: 10% 0;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease;
+  position: relative;
+}
+.features-section button:hover {
+  background: white;
+  color: #212529;
+  border: 2px solid black;
+}
+/* Style for the arrow icon beside the button */
+.features-section span i {
+  padding: 0 2%;
+}
+/* style for the icon ended here */
+.features-section hr {
+  background-color: black;
+  padding: 0.8% 0;
+  border: none;
+  margin: 15% 0;
+}
+/* END OF FEATURES SECTION */
+
+/* BEGINNING OF ENCOUNTER SECTION */
+.encounter-section {
+  padding: 0 3%;
+}
+.encounter-section-first-child {
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.63);
+}
+.encounter-section h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 34px;
+  padding: 5% 0;
+}
+.num-text {
+  padding: 0;
+}
+.num-text01,
+.num-text02 {
+  display: flex;
+  gap: 15%;
+  align-items: center;
+  justify-content: center;
+}
+.num-text01 .num,
+.num-text02 .num {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.num-text01 .text,
+.num-text02 .text {
+  color: rgba(0, 0, 0, 0.596);
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+.encounter-section hr {
+  background-color: black;
+  padding: 0.3% 0;
+  border: none;
+  margin: 15% 0;
+}
+.vision p {
+  font-size: 1rem;
+  padding-top: 5%;
+  letter-spacing: 0.5px;
+}
+.mission p {
+  padding-top: 5%;
+  letter-spacing: 0.5px;
+}
+.vision h3,
+.mission h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+/* END OF ENCOUNTER SECTION */
+
+/* BEGINNING OF SUMMARY SECTION */
+.summary-section {
+  background: rgba(0, 0, 0, 0.589)
+    url(images/maxwell-nelson-VJeAZr-Bu9E-unsplash\ \(1\).jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: darken;
+  color: white;
+  margin: 20% 0 0 0;
+  padding: 20% 3%;
+}
+.summary-section h1 {
+  font-size: 2.8rem;
+  font-weight: 600;
+  line-height: 48px;
+}
+.summary-section p {
+  padding: 10% 0;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+}
+.summary-section button {
+  width: 100%;
+  padding: 5% 5%;
+  font-size: 1rem;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease;
+  position: relative;
+  margin-bottom: 10%;
+}
+
+.summary-section button:hover::after {
+  opacity: 1;
+  right: 28%;
+}
+.summary-section button::after {
+  content: "\00BB";
+  position: absolute;
+  opacity: 0;
+  font-size: 1.5rem;
+  right: 10%;
+  transform: translateY(-25%);
+  transition: 0.4s;
+}
+/* END OF SUMMARY SCTION  */
+
+/* BEGINNING OF AGENCY-AGREEMENT SECTION */
+.BG-BLACK {
+    background-color: black;
+}
+.agency-agreement-section {
+    color: white;
+    padding: 15% 3%;
+}
+.agency-achievements h1 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 40px;
+}
+.agency-achievements p {
+        padding: 10% 0;
+        letter-spacing: 0.5px;
+        font-weight: bold;
+}
+.our-achievements div {
+    padding: 3% 0;
+}
+.our-achievements {
+    padding: 10% 0;
+}
+.our-achievements h1 {
+    font-size: 5rem;
+    letter-spacing: 1px;
+}
+.our-achievements p {
+    color: gray;
+    padding: 3% 0;
+}
+.agency-agreement-section-hr hr {
+  padding: 0.8% 0;
+  background-color: white;
+  border: none;
+  margin: 15% 0;
+}
+/* END OF AGENCY-AGREENEMT-SECTION */
+
+/* BEGINNING OF PROMOTION-SECTION */
+.promotion-section {
+    padding: 0 3%;
+    color: white;
+}
+.promotion-section-item01 p:first-child {
+    color: white;
+}
+.promotion-section-item01 p {
+    color: gray;
+    font-weight: bold;
+    padding: 3% 0;
+    width: 50%;
+    font-size: 1.3rem;
+}
+.promotion-section img {
+    width: 100%;
+    margin: 10% 0 20% 0;
+}
+.promotion-section h1 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 35px;
+    padding: 10% 0;
+}
+.promotion-section p {
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    line-height: 25px;
+}
+ /* END OF PROMOTION SECTION */
+
+ /* BEGINNING OF IMPRESS SECTION */
+ .impress-section {
+  padding: 25% 0;
+ }
+ .impress-section-header {
+  padding: 0 3%;
+ }
+ .impress-section h1 {
+  font-size: 2.8rem;
+  font-weight: 600;
+  line-height: 50px;
+  letter-spacing: 1.2px;
+}
+ .impress-section button {
+  width: 100%;
+  padding: 5% 5%;
+  font-weight: 700;
+  font-size: 1rem;
+  background-color: black;
+  color: white;
+  margin: 15% 0;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease;
+  position: relative;
+}
+.impress-section button:hover {
+  background: none;
+  color: #212529;
+  border: 2px solid black;
+}
+/* Style for the arrow icon beside the button */
+.impress-section span i {
+  padding: 0 2%;
+}
+/* style for the icon ended here */
+.impress-section-images {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.impress-section-images img {
+  width: 100%;
+}
+/* IMPRESS SECTION ENDS */
+
+/* ASIDE SECTION BEGINS */
+/* aside {
+  padding: 0 3%;
+
+}
+.aside-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aside-div div {
+  overflow: hidden;
+
+}
+aside p {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 10% 0;
+} */
+
+/* ASIDE SCTION ENDS HERE */
+
+/* FOOTER SECTION BEGINS HERE */
+footer {
+  background-color: rgba(236, 236, 236, 0.377);
+  padding: 25% 3% 10% 3%;
+}
+footer p {
+  color: gray;
+  font-size: 0.9rem;
+}
+footer input[type = email] {
+  background-color: transparent;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 2px solid gray;
+  width: 100%;
+  padding: 5% 0;
+  font-size: 1.5rem;
+  color: black;
+  letter-spacing: 0.8px;
+
+}
+footer input[type = email]::placeholder {
+  color: black;
+  font-weight: bold;
+}
+.get-in-touch {
+  position: relative;
+}
+footer span i {
+  position: absolute;
+  top: 20%;
+  left: 90%;
+  font-size: 1.5rem;
+}
+.get-social-text {
+  padding: 10% 0;
+}
+.get-social {
+  display: flex;
+  justify-content: space-around;
+}
+.get-social i {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.information-projects {
+  display: flex;
+  justify-content: space-between;
+}
+footer ul li {
+  list-style-type: none;
+  padding: 5% 0;
+}
+.information-projects ul li a {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 0.5px;
+}
+.information-projects p {
+  padding: 50% 0 20% 0;
+}
+footer hr {
+  background-color: black;
+  padding: 0.5% 0;
+  border: none;
+  margin: 15% 0;
+}
+.address .address02 {
+  color: black;
+  padding: 10% 0;
+  font-size: 1.3rem;
+  width: 70%;
+  letter-spacing: 0.5px;
+}
+.contact .contact01 {
+  padding-bottom: 5%;
+}
+.contact p a {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 0.8px;
+
+}
+.contact .number a {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.contact .mailto a {
+  font-size: 1.2rem;
+}
+
+/* MOBILE VERSION ENDED HERE! */
+
+
+
+/* SCREEN SIZES BETWEEN 992PX AND ABOVE */
+
+@media (min-width: 992px) {
+  header,
+nav ul {
+  display: initial;
+}
+header {
+  display: flex;
+  padding: 1% 5%;
+  gap: 3%;
+}
+nav {
+  padding: 0  5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  padding: 0 15%;
+}
+nav ul li {
+  list-style-type: none;
+  padding: 0 5%;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: black;
+}
+
+/* HERO SECTION BEGINS */
+  .hero-section {
+    /* display: grid;
+    grid-template-columns: auto auto; */
+    padding: 10% 5%;
+    background-image: url(images/steve-johnson-TnjzgonRFPU-unsplash-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: 1200px;
+    background-position: 650px;
+
+  }
+  .hero-section p {
+    font-size: 1.2rem;
+    padding: 4% 0;
+  }
+  .hero-section h1 {
+    font-size: 5.5rem;
+    line-height: 85px;
+    width: 50%;
+  }
+  .hero-section-img {
+    display: block;
+  }
+
+.hero-section button {
+  width: 30%;
+  padding: 2% 5%;
+  margin: 10% 0;
+}
+/* Style for the arrow icon beside the button */
+.hero-section span i {
+  padding: 0 5%;
+}
+/* style for the icon ended here */
+.hero-section-hr hr {
+  background-color: black;
+  padding: 0.2% 0;
+  border: none;
+  margin: 0.5% 5%;
+}
+/* HERO SECTION ENDS.... */
+
+/* MAIN SECTION BEGINS */
+main {
+  display: flex;
+  margin-top: 10%;
+  justify-content: space-between;
+  padding: 0 5%;
+  
+}
+main h1 {
+  font-size: 2.5rem;
+   font-weight: 600;
+  line-height: 45px; 
+  letter-spacing: 0.5px;
+}
+.attributes {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10% 0;
+  gap: 5%;
+}
+.main-img img {
+  display: block;
+  width: 500px;
+}
+/* END OF MAIN SECTION */
+
+/* BEGINNING OF FEATURES SECTION */
+.features-section {
+  padding: 5%;
+}
+.features-section-item {
+  flex-direction: row-reverse;
+  gap: 10%;
+}
+.features-section-item01 h1 {
+  font-size: 2.5rem;
+  line-height: 45px; 
+  letter-spacing: 0.5px;
+  padding: 5% 0;
+}
+.features-section-item01 p {
+  padding: 2% 0;
+}
+
+.features-section img {
+  width: 400px;
+}
+.features-section button {
+  width: 50%;
+  padding: 3% 5%;
+  margin: 10% 0;
+}
+/* Style for the arrow icon beside the button */
+.features-section span i {
+  padding: 0 5%;
+}
+/* style for the icon ended here */
+.features-section-hr hr {
+  background-color: black;
+  padding: 0.2% 0;
+  border: none;
+  margin: 0.5% 5%;
+}
+/* END OF FEATURES SECTION */
+
+/* BEGINNING OF ENCOUNTER SECTION */
+.encounter-section {
+  padding: 10% 5%;
+}
+.encounter-section h1 {
+  font-size: 2.5rem;
+  line-height: 50px; 
+  letter-spacing: 0.5px;
+  padding: 2% 0;
+}
+.num-text-vision-mission {
+  display: flex;
+  gap: 8%;
+  padding: 5% 0;
+}
+.num-text01,
+.num-text02 {
+  gap: 15%;
+  white-space: nowrap;
+  margin: 10% 0;
+}
+/* END OF ENCOUNTER SECTION */
+
+/* BEGINNING OF SUMMARY SECTION */
+.summary-section {
+  margin: 0 ;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10% 5%;
+  text-align: left;
+}
+.empty-div {
+  width: 50%;
+}
+.summary-section h1 {
+  font-size: 5rem;
+   line-height: 85px;
+}
+.summary-section p {
+  padding: 5% 0;
+}
+.summary-section button  {
+  width: 50%;
+  padding: 3% 5%;
+  margin: 5% 0;
+}
+/* END OF SUMMARY SCTION  */
+
+/* BEGINNING OF AGENCY-AGREEMENT SECTION */
+.agency-agreement-section {
+  display: flex;
+  padding: 10% 5%;
+  gap: 15%;
+  align-items: center;
+  justify-content: center;
+}
+.agency-achievements h1 {
+  font-size: 2.3rem;
+}
+.agency-achievements p {
+  padding: 10% 0;
+}
+.our-achievements {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 0 5%;
+  gap: 10%;
+}
+.our-achievements div {
+  padding: 0;
+}
+.agency-agreement-section-hr hr {
+  padding: 0.2% 0;
+  border: none;
+  margin: 0.5% 5%;
+}
+ /* BEGINNING OF PROMOTION SECTION  */
+ .promotion-section {
+  padding: 10% 5%;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 25%;
+ }
+ .promotion-section h1 {
+  padding: 0 0 5% 0;
+  font-size: 2.5rem;
+  line-height: 50px;
+
+ }
+ .promotion-section img {
+  margin-bottom: 5%;
+}
+ /* END OF PROMOTION SECTION  */
+
+ /* BEGINNING OF IMPRESS SECTION */
+ .impress-section {
+  padding: 10% 0 0 0;
+ }
+ .impress-section-header {
+  display: flex;
+  padding: 0 5%;
+  justify-content: space-between;
+ }
+ .impress-section h1 {
+  font-size: 2rem;
+ }
+ .impress-section button {
+  width: 30%;
+  margin: 0;
+  padding: 2%;
+ }
+ .impress-section-images {
+  margin: 10% 0;
+ }
+/* IMPRESS SECTION ENDS */
+footer {
+  padding: 0 5%;
+}
+.get-in-touch-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10% 0;
+  gap: 10%;
+}
+footer input[type = email] {
+  font-size: 2.5rem;
+  width: 100%;
+}
+.information-projects ul li a {
+  font-size: 1.5rem;
+}
+.information-projects p {
+  padding: 0 0 10% 0;
+}
+.information-projects {
+  gap: 40%;
+  white-space: nowrap;
+}
+footer hr {
+  padding: 0.2% 0;
+  border: none;
+  margin: 0;
+}
+.get-social {
+  justify-content: space-between;
+}
+.address-contacts {
+  padding: 10% 0 5% 0;
+  display: flex;
+  justify-content: space-between;
+}
+.address .address02 {
+  padding: 10% 0;
+}
+.contact .contact01 {
+  padding-bottom: 10%;
+}
+.contact .number a {
+  font-size: 2.5rem;
+}
+.contact .mailto a {
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+}
+.copyright {
+  padding: 3% 0;
+}
+.copyright a {
+  text-decoration: none;
+}
+footer hr {
+  background-color: black;
+  padding: 0.5px 0;
+  border: none;
+}
+
+
+}
