@@ -371,10 +371,43 @@ main h1 {
 .impress-section-images {
   display: grid;
   grid-template-columns: auto auto auto;
+  position: relative;
+}
+.images:hover {
+  filter: brightness(50%);
+  transition: 0.5s;
+}
+.impress-section-images div span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: rgb(255, 255, 255);
 }
 .impress-section-images img {
   width: 100%;
+  z-index: 4;
+  
 }
+.images {
+  position: relative;
+  cursor: pointer;
+}
+.overlay {
+  position: absolute;
+  top: -30%;
+  left: 0;
+  width: 100%;
+  height: 150%;
+  background-color: rgba(0, 0, 0, 0.795);
+  z-index: 1;
+}
+.hidden {
+  display: none;
+}
+.zoom, .zoom1 {
+  display: none;
+}
+
 /* IMPRESS SECTION ENDS */
 
 /* ASIDE SECTION BEGINS */
@@ -532,7 +565,7 @@ nav ul li a {
   .hero-section {
     /* display: grid;
     grid-template-columns: auto auto; */
-    padding: 10% 5%;
+    padding: 5% 5% 10% 5%;
     background-image: url(images/steve-johnson-TnjzgonRFPU-unsplash-removebg-preview.png);
     background-repeat: no-repeat;
     background-size: 1200px;
@@ -603,6 +636,7 @@ main h1 {
 .features-section-item {
   flex-direction: row-reverse;
   gap: 10%;
+  align-items: center;
 }
 .features-section-item01 h1 {
   font-size: 2.5rem;
